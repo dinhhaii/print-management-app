@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
+      {/* <head>
         <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
         <link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
         <script src="https://unpkg.com/@popperjs/core@2"></script>
@@ -25,12 +25,12 @@ export default function RootLayout({
           href="./assets/css/argon-dashboard-tailwind.css?v=1.0.1"
           rel="stylesheet"
         />
-      </head>
+      </head> */}
       <body className={montserrat.className}>{children}</body>
 
-      <Script src="/assets/js/plugins/chartjs.min.js" async></Script>
+      {/* <Script src="/assets/js/plugins/chartjs.min.js" async></Script>
       <Script src="/assets/js/plugins/perfect-scrollbar.min.js" async></Script>
-      <Script src="/assets/js/argon-dashboard-tailwind.js?v=1.0.1" async />
+      <Script src="/assets/js/argon-dashboard-tailwind.js?v=1.0.1" async /> */}
     </html>
   );
 }
